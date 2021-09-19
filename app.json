@@ -10,9 +10,9 @@
         "ai",
         "SLHackers"
     ],
-    "repository": "",
+    "repository": "https://www.github.com/SLHBot/dbomber",
     "website": "https://chat.whatsapp.com/BmHC38h9OTPIbWLjGupalw",
-    "success_url": "https://chat.whatsapp.com/BmHC38h9OTPIbWLjGupalw",
+    "success_url": "https://www.github.com/SLHBot",
     "stack": "container",
     "env": {
         "SLHACKERS_SESSION": {
@@ -65,7 +65,7 @@
         "BOT_NAAAAAAME": {
             "description": "Photo caption ;ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
             "required": false,
-            "value": "*Made by* ⚡\n🔰SLHαcĸerѕ Teαм Boт🔰"
+            "value": "*Made by* \n🔰SLHαcĸerѕ Teαм Boт🔰"
         },
         "BOT_NAAAAAAAME": {
             "description": "Photo caption ;ලෝගෝ /පින්තුර පහළ ඇති නම වෙනස් කිරිමට අවශ්‍ය නම් මෙහි ඔබට අවශ්‍ය නම ලියන්න.",
@@ -97,16 +97,6 @@
             "required": false,
             "value": "*SLHackers Commands*"
         },
-        "INBOX_BLOCK": {
-            "description": "Activate Inbox Block System true or false",
-            "required": false,
-            "value": "false"
-        },
-        "CHANGE_BGM_TO": {
-            "description": "Dont leave this blank choose the bgm you need - enter -slhackers- for talking slhackers - enter -Tom- for Talking tom",
-            "required": true,
-            "value": "slhackers"
-        },
         "MENU_LOGO": {
             "description": "Alive message Photo.",
             "required": false,
@@ -121,16 +111,6 @@
             "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා En ලෙස සඳහන් කරන්න. ",
             "required": true,
             "value": "En"
-        },
-        "HANDLERS": {
-            "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
-            "required": true,
-            "value": "^[.?!#*]"
-        },
-        "THERI_LIST": {
-            "description": "Safe mode",
-            "required": true,
-            "value": "true"
         },
         "SUDO": {
             "description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
@@ -236,6 +216,41 @@
             "required": true,
             "value": "true"
         },
+        "COMMAND": {
+            "description": "ඔබ මෙය නොදන්නේ නම්. එය අත්හරින්න.",
+            "required": true,
+            "value": "hacked"
+        },
+        "HANDLERS": {
+            "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
+            "required": true,
+            "value": "^[.?!#*]"
+        },
+        "INBOX_BLOCK": {
+            "description": "Activate Inbox Block System true or false",
+            "required": false,
+            "value": "false"
+        },
+        "CHANGE_BGM_TO": {
+            "description": "Dont leave this blank choose the bgm you need - enter -slhackers- for talking slhackers - enter -Tom- for Talking tom",
+            "required": true,
+            "value": "slhackers"
+        },
+        "SONGD": {
+            "description": "Customizable Song Download message",
+            "required": false,
+            "value": "⚡Downloading Your Song"
+        },
+        "SONGU": {
+            "description": "Customizable Song upload message",
+            "required": false,
+            "value": "🚀Uploading Your Song"
+        },
+        "THERI_LIST": {
+            "description": "Safe mode",
+            "required": true,
+            "value": "true"
+        },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
@@ -265,11 +280,6 @@
             "description": "Type the Presence of bot, presences: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE PRESENCE WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
             "required": false,
             "value": "offline"
-        },
-        "COMMAND": {
-            "description": "ඔබ මෙය නොදන්නේ නම්. එය අත්හරින්න.",
-            "required": true,
-            "value": "hacked"
         },
         "COFFEEHOUSE_API_KEY": {
             "description": "එය අත්හරින්න. අපි ඔබට මෙය ලබා දෙනවා.",
